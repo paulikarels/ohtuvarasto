@@ -57,4 +57,5 @@ class Varasto:
                                             return False
             if q == w:
                     return False
+            #once more
         return True
