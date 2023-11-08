@@ -16,7 +16,8 @@ class Varasto:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
 
-    # huom: ominaisuus voidaan myös laskea. Ei tarvita erillistä kenttää viela_tilaa tms.
+    # huom: ominaisuus voidaan myös laskea.
+    # Ei tarvita erillistä kenttää viela_tilaa tms.
 
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
@@ -44,18 +45,3 @@ class Varasto:
 
     def __str__(self):
         return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
-
-    def pylint_breaker(self, q,w,e,r,t,y,u,i,a,s,d,f,g,h,j,z,x,):
-        if True == True:
-            if True == False:
-                    if True == True:
-                        if True == False:
-                            if True == True:
-                                if True == True:
-                                    if True == False:
-                                        if True == True:
-                                            return False
-            if q == w:
-                    return False
-            
-        return True
